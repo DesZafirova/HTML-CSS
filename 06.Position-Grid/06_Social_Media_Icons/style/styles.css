@@ -1,0 +1,52 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ 
+    background: #eee;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+ul{
+    display: flex;
+    gap: 1em;
+}
+li{
+    display: block;
+}
+a span{
+    display: none;
+    width: 0px;
+    height: 0px;
+    text-indent: -100vw;
+}
+a{
+    width: 100%;
+    display: grid;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    width: 1.5em;
+    height: 1.5em;
+    place-items: center;
+    text-decoration: none;
+    line-height: 1;
+    transition: 
+    background-color 0.3s ease-in,
+    color 0.3s ease-in;
+}
+a:hover{
+    background: #000;
+    color: #fff;
+}
+a i {
+    display: block;
+ 
+}
