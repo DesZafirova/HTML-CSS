@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  border-bottom: 2px solid rgb(0,0,0);
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav {
+  margin-left: auto;
+}
+
+header nav a {
+  color: rgb(0, 153, 0);
+  text-decoration: none;
+  padding: 0.5em;
+}
